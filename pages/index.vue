@@ -1,8 +1,8 @@
 
 <template>
   <div class="">
-    <!-- <MainImageViewor />
-    <News /> -->
+    <MainImageViewor />
+    <News />
     <LastesArticles />
     <HomeArticles/>
     <MagazinAuthers />

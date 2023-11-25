@@ -2,11 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/color-mode",
     "nuxt-icon",
     "@vueuse/motion/nuxt",
-
+    "@nuxt/ui",
   ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",

@@ -3,6 +3,7 @@
     <div class="container mx-auto dark:text-white twxt-black">
       <div class="flex flex-col gap-5 mt-10">
         
+        <h1 class="text-3xl">مقالات ادبية</h1>
        <Splide :options=" {
   type   : 'loop',
  
@@ -214,6 +215,8 @@
     
 
   </Splide>
+          <h1 class="text-3xl">مقالات ادبية</h1>
+
        <Splide :options=" {
   type   : 'loop',
  
@@ -420,6 +423,8 @@
     
 
   </Splide>
+          <h1 class="text-3xl">مقالات ادبية</h1>
+
          <Splide :options=" {
   type   : 'loop',
  

@@ -32,7 +32,9 @@
         <div class="items-center hidden gap-7 sm:flex">
           <NuxtLink to="/AboutAs">من نحن</NuxtLink>
           <NuxtLink to="/Articles">المقالات</NuxtLink>
-          <NuxtLink to="/">اصدارات المجلة</NuxtLink>
+          <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
+            <UButton color="black" variant="solid" label="اصدارات المجلة" trailing-icon="i-heroicons-chevron-down-20-solid" />
+          </UDropdown> 
         </div>
      
       </div>
@@ -59,4 +61,17 @@ type Theme = "light" | "dark";
 const setColorTheme = (newTheme: Theme) => {
   useColorMode().preference = newTheme;
 };
+
+const items = [
+  [{
+    label: 'Profile',
+  }],
+  [{
+    label: 'Settings',
+  }],
+  [{
+    label: 'Logout',
+  }],
+  
+]
 </script>
