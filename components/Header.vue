@@ -11,7 +11,6 @@
      <div class="flex items-center gap-4">
         <div class="items-center hidden gap-4 sm:flex">
         <button>تسجيل  الدخول</button>
-        <button>تسجيل</button>
      </div>
      <div class="w-8 h-8 mr-5 bg-blue-500 rounded-full sm:m-0">
         <img  class="rounded-full" src="/107749.png" alt="">
