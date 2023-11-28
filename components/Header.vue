@@ -10,7 +10,7 @@
     >
      <div class="flex items-center gap-4">
         <div class="items-center hidden gap-4 sm:flex">
-        <button>تسجيل  الدخول</button>
+        <NuxtLink to="/signup" target="_blank">تسجيل  الدخول</NuxtLink>
      </div>
      <div class="w-8 h-8 mr-5 bg-blue-500 rounded-full sm:m-0">
         <img  class="rounded-full" src="/107749.png" alt="">
@@ -30,11 +30,9 @@
           />
         </NuxtLink>
         <div class="items-center hidden gap-7 sm:flex">
-          <NuxtLink to="/AboutAs">من نحن</NuxtLink>
+          <NuxtLink to="/AboutUs">من نحن</NuxtLink>
           <NuxtLink to="/Articles">المقالات</NuxtLink>
-          <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
-            <UButton color="black" variant="solid" label="اصدارات المجلة" trailing-icon="i-heroicons-chevron-down-20-solid" />
-          </UDropdown> 
+          
         </div>
      
       </div>
@@ -62,16 +60,5 @@ const setColorTheme = (newTheme: Theme) => {
   useColorMode().preference = newTheme;
 };
 
-const items = [
-  [{
-    label: 'Profile',
-  }],
-  [{
-    label: 'Settings',
-  }],
-  [{
-    label: 'Logout',
-  }],
-  
-]
+
 </script>

@@ -5,6 +5,8 @@
     <News />
     <LastesArticles />
     <HomeArticles/>
+    <Activites />
+    <ArtLibrary />
     <MagazinAuthers />
   </div>
 </template>

@@ -14,6 +14,8 @@
         <!-- main article  -->
         <div class="md:w-[50%] sm:w-[40%] flex flex-col gap-2 " 
         v-motion-pop-visible
+  
+        
     >
       
           <img class="rounded-md " src="/1283866.jpg" alt="">
